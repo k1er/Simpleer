@@ -22,7 +22,7 @@ pod 'Simpler'
 
 ## Author
 
-杨向阳, YANGXIANGYANG597@pingan.com.cn
+杨向阳, anke603@163.ccom
 
 ## License
 
