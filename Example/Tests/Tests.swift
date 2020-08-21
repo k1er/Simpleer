@@ -1,5 +1,5 @@
 import XCTest
-import Simpler
+import Simpleer
 
 class Tests: XCTestCase {
     

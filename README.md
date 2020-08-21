@@ -1,9 +1,9 @@
-# Simpler
+# Simpleer
 
-[![CI Status](https://img.shields.io/travis/杨向阳/Simpler.svg?style=flat)](https://travis-ci.org/杨向阳/Simpler)
-[![Version](https://img.shields.io/cocoapods/v/Simpler.svg?style=flat)](https://cocoapods.org/pods/Simpler)
-[![License](https://img.shields.io/cocoapods/l/Simpler.svg?style=flat)](https://cocoapods.org/pods/Simpler)
-[![Platform](https://img.shields.io/cocoapods/p/Simpler.svg?style=flat)](https://cocoapods.org/pods/Simpler)
+[![CI Status](https://img.shields.io/travis/anke603@163.com/Simpleer.svg?style=flat)](https://travis-ci.org/anke603@163.com/Simpleer)
+[![Version](https://img.shields.io/cocoapods/v/Simpleer.svg?style=flat)](https://cocoapods.org/pods/Simpleer)
+[![License](https://img.shields.io/cocoapods/l/Simpleer.svg?style=flat)](https://cocoapods.org/pods/Simpleer)
+[![Platform](https://img.shields.io/cocoapods/p/Simpleer.svg?style=flat)](https://cocoapods.org/pods/Simpleer)
 
 ## Example
 
@@ -13,17 +13,17 @@ To run the example project, clone the repo, and run `pod install` from the Examp
 
 ## Installation
 
-Simpler is available through [CocoaPods](https://cocoapods.org). To install
+Simpleer is available through [CocoaPods](https://cocoapods.org). To install
 it, simply add the following line to your Podfile:
 
 ```ruby
-pod 'Simpler'
+pod 'Simpleer'
 ```
 
 ## Author
 
-Rudy, anke603@163.ccom
+anke603@163.com, YANGXIANGYANG597@pingan.com.cn
 
 ## License
 
-Simpler is available under the MIT license. See the LICENSE file for more info.
+Simpleer is available under the MIT license. See the LICENSE file for more info.

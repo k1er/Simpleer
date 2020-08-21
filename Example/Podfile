@@ -1,9 +1,9 @@
 use_frameworks!
 
-target 'Simpler_Example' do
-  pod 'Simpler', :path => '../'
+target 'Simpleer_Example' do
+  pod 'Simpleer', :path => '../'
 
-  target 'Simpler_Tests' do
+  target 'Simpleer_Tests' do
     inherit! :search_paths
 
     
