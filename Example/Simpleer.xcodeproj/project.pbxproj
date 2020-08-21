@@ -44,7 +44,7 @@
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
 		79F167572147D5335BBE8286 /* Pods-Simpleer_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Simpleer_Tests.release.xcconfig"; path = "Target Support Files/Pods-Simpleer_Tests/Pods-Simpleer_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		88996C92E7F73D2FBF6F1BE1 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
-		9878A8173DB23251C458F020 /* Simpleer.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Simpleer.podspec; path = ../Simpleer.podspec; sourceTree = "<group>"; };
+		9878A8173DB23251C458F020 /* Simpleer.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Simpleer.podspec; path = ../Simpleer.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		CF3C8F4F2F03B369D8EDCB3B /* Pods_Simpleer_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Simpleer_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F9F9291375BBB9B04019C1FC /* Pods_Simpleer_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Simpleer_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */

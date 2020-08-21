@@ -12,12 +12,11 @@
 		1B0D797AB9186CDAD2B4B457B7913C0E /* Pods-Simpleer_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = CC39F753CC8145E7794B14A6A9C9513D /* Pods-Simpleer_Tests-dummy.m */; };
 		1D142856163AF9DBA9FD58D4245B881F /* GCDWebServerFunctions.m in Sources */ = {isa = PBXBuildFile; fileRef = AAF5FE62CD50EFA86F080C43B8588277 /* GCDWebServerFunctions.m */; };
 		2177630F909561C7C64E3269C7444AB2 /* GCDWebServerStreamedResponse.h in Headers */ = {isa = PBXBuildFile; fileRef = DDE41377AA37A8F1B9B758179C7924DC /* GCDWebServerStreamedResponse.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		29BDC8CC43D5B4B05CA3784BDABDC365 /* Simpleer-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 88B0596C6807FCAD841C1A77BD5B9DBE /* Simpleer-dummy.m */; };
 		2A9C8563217F04DD7399F0356BA93A1A /* GCDWebServerDataResponse.h in Headers */ = {isa = PBXBuildFile; fileRef = B435AD2F2146821543736A9F3F00CA95 /* GCDWebServerDataResponse.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2DE979398B5145AB4F845BA518A175AB /* SimpleerPlugin.swift in Sources */ = {isa = PBXBuildFile; fileRef = A24C6815B4C0036584CEAE013AD4DECC /* SimpleerPlugin.swift */; };
 		34D76C607387FA0235C280C9DE032F4E /* GCDWebServerPrivate.h in Headers */ = {isa = PBXBuildFile; fileRef = 591A5CA3B29966019A93E672E538D31C /* GCDWebServerPrivate.h */; settings = {ATTRIBUTES = (Private, ); }; };
 		3502DA8AA76D7E7912A243A608D5C9CE /* GCDWebServerFileRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 840EEB90348804EDEAFB2E9940A655F2 /* GCDWebServerFileRequest.m */; };
 		3CCA984FB83DB50846C172F6C6E2F71F /* GCDWebUploader.m in Sources */ = {isa = PBXBuildFile; fileRef = 1968F273E7DCCB0A13D8D7DC585631B0 /* GCDWebUploader.m */; };
-		45B187D9B44A9EE1673A7E323C8C3799 /* SimplerrManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FAB321F2799C35FE3B30663967ABB53 /* SimplerrManager.swift */; };
 		4706D6846EA04AEA7F59FC4E219ED2DA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4DB62FE772CA0208DD2C140C7427AAC5 /* Foundation.framework */; };
 		4B63F8D7409002E2F11534CDD83FCC5F /* Pods-Simpleer_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 84AEC71FBB095B0349551464C8461883 /* Pods-Simpleer_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		4C81730535158D24223F6E28C636A6FD /* GCDWebServerDataRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 4FEECEC98014A2E7A4FA1AF05C2D840F /* GCDWebServerDataRequest.m */; };
@@ -39,48 +38,49 @@
 		86FDD9D59832A8C22EE946F04FE9C903 /* GCDWebServer-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5879E3BF62E3E6F5DA4C5B5D8A925752 /* GCDWebServer-dummy.m */; };
 		9371F95E59BD01F72F985B6D3EB2AC38 /* GCDWebServerResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 867598BBF9637778BAB1C50B12564EB9 /* GCDWebServerResponse.m */; };
 		993360280C3E4FABF5730E60BEF56755 /* GCDWebServerResponse.h in Headers */ = {isa = PBXBuildFile; fileRef = 2B01BC652F1BF246B8C12A6A623CDB75 /* GCDWebServerResponse.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		9C30E63127BB06A036A6D682D603CCFB /* SandboxPlugin.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6057C5CA6BDF69D9F1964C3F121048D1 /* SandboxPlugin.swift */; };
 		9D3E7AE9BA532D23F768165E672E8933 /* GCDWebServer.m in Sources */ = {isa = PBXBuildFile; fileRef = AC5F8564F0789C52D4EA4E14D91AD5E6 /* GCDWebServer.m */; };
 		9F6AFB4552DEEAA136BCA144A3904399 /* GCDWebServerConnection.m in Sources */ = {isa = PBXBuildFile; fileRef = 23B696C71EC2D7014F168E50CC3CBE50 /* GCDWebServerConnection.m */; };
 		9FC7E97CEC910400F14906EFC4F43DF6 /* GCDWebServerDataRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = 48547B1C543AD662C1016E3FD6D2D319 /* GCDWebServerDataRequest.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		A0CB1ACA208A7C123881DA5C23E7A024 /* GCDWebServerRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = BFBB6B9874548911D76CAEBC8861C2FC /* GCDWebServerRequest.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		A25497366EB4B8F1997C89BFE239D52E /* GCDWebServerFileResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = E46140A24E3D4D770FCF138F9A5F0352 /* GCDWebServerFileResponse.m */; };
 		AB9424FB7DCDAEB7590A66718EFB7D6F /* GCDWebServerURLEncodedFormRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = 055A4B3980B47886ABA6BB291ADB420D /* GCDWebServerURLEncodedFormRequest.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		AEA9C0FAD3831994B8F7138824DF3722 /* Simpleer-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 1B831AD1E6A7390C63AFDC6CF107E2E0 /* Simpleer-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AEA9C0FAD3831994B8F7138824DF3722 /* Simpleer-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 759ECDF8BE716CBC21A6124DC7075790 /* Simpleer-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		AF4F7D052A110624BA37F32BA2154488 /* GCDWebServerConnection.h in Headers */ = {isa = PBXBuildFile; fileRef = B830A57E3623AB8AFC628B57F91E00C4 /* GCDWebServerConnection.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		B147735862663C13412CA1F3A6877C47 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4DB62FE772CA0208DD2C140C7427AAC5 /* Foundation.framework */; };
 		B2843F68A723581769F5BD8EC4A84528 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4DB62FE772CA0208DD2C140C7427AAC5 /* Foundation.framework */; };
 		B5718815D4A224E7A3A14D5109CD7C4E /* GCDWebServerMultiPartFormRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = A424A41A9A3A5FAD0543837A95202FCC /* GCDWebServerMultiPartFormRequest.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		BDC13949DD9AD258ADA57242885E26B8 /* GCDWebServerErrorResponse.h in Headers */ = {isa = PBXBuildFile; fileRef = 447F4CD0B2B678D0DD84210A27411004 /* GCDWebServerErrorResponse.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		C67029FAD962701B9C2005EBAE62E2CD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4DB62FE772CA0208DD2C140C7427AAC5 /* Foundation.framework */; };
-		F01B24C86C43E3CB9216E0F81AA94295 /* SimpleerPlugin.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9E0AC9C00B3F032597A51AED1AB5EE3 /* SimpleerPlugin.swift */; };
+		C7CAAA6DBA2A63793C5E7CB7B492279C /* SandboxPlugin.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71A3620C1209E2FF69F43E75F0886285 /* SandboxPlugin.swift */; };
+		D1396DD929658CE0E8124AB707E2CE82 /* SimpleerManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAFC86321D3602FCF2440E36D89ED468 /* SimpleerManager.swift */; };
+		DA31B29E34696A0F18C630631F9FC40C /* Simpleer-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 81A27E08C2D3004703E0248DF030932F /* Simpleer-dummy.m */; };
 		F7FC88D8A787373383627AB4E0129650 /* GCDWebServerErrorResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 55C77F97FCBCC7DE392101FCB05902C6 /* GCDWebServerErrorResponse.m */; };
 		FAB9C8987F30EFE40A3A689774D9EEC7 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BCCFE1F774FB68BD86A34CDA5262DBA7 /* MobileCoreServices.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		34EB1ABD96F14905C8609AAAEE168CDC /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 1E9EFB6136FDBF1C3B772FCEBDE67E96;
-			remoteInfo = "Pods-Simpleer_Example";
-		};
-		66AA0F7EEE27990374C91C77C01569B8 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = AD904F32069787EFB2DFFE05EB82F5BD;
-			remoteInfo = GCDWebServer;
-		};
-		80197571D6C612E2CF5185E18649C57F /* PBXContainerItemProxy */ = {
+		9C52A727621F6832DB29E91E1D6F3F26 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 80338FF7C157FBD6F608AA6F388E270F;
 			remoteInfo = Simpleer;
 		};
-		B0ACAC558855EB8ECF24C65900C20412 /* PBXContainerItemProxy */ = {
+		AFB420DC5ED3348EDD3CEDC76B40D156 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1E9EFB6136FDBF1C3B772FCEBDE67E96;
+			remoteInfo = "Pods-Simpleer_Example";
+		};
+		CD26AB1EC0AEAEFA7BF0604E2810F6D9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AD904F32069787EFB2DFFE05EB82F5BD;
+			remoteInfo = GCDWebServer;
+		};
+		E9F021ABDD119C76DFCF6D17A17BDC78 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
@@ -92,14 +92,11 @@
 /* Begin PBXFileReference section */
 		00706C190BCA2E696B2EC6662C7B07A4 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/CFNetwork.framework; sourceTree = DEVELOPER_DIR; };
 		055A4B3980B47886ABA6BB291ADB420D /* GCDWebServerURLEncodedFormRequest.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GCDWebServerURLEncodedFormRequest.h; path = GCDWebServer/Requests/GCDWebServerURLEncodedFormRequest.h; sourceTree = "<group>"; };
-		05D915DB80882E6A649853C4AB7B910B /* Simpleer.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = Simpleer.modulemap; sourceTree = "<group>"; };
-		0D84F3BC9859BE4A56DE916C407D1340 /* Simpleer.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = Simpleer.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		1968F273E7DCCB0A13D8D7DC585631B0 /* GCDWebUploader.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GCDWebUploader.m; path = GCDWebUploader/GCDWebUploader.m; sourceTree = "<group>"; };
-		1B831AD1E6A7390C63AFDC6CF107E2E0 /* Simpleer-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Simpleer-umbrella.h"; sourceTree = "<group>"; };
+		1EF13429C6C2C040F0D302929F613BB3 /* Simpleer-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Simpleer-prefix.pch"; sourceTree = "<group>"; };
 		23B696C71EC2D7014F168E50CC3CBE50 /* GCDWebServerConnection.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GCDWebServerConnection.m; path = GCDWebServer/Core/GCDWebServerConnection.m; sourceTree = "<group>"; };
 		25B05828948E502ABF07DB4A423923E0 /* GCDWebServer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GCDWebServer.h; path = GCDWebServer/Core/GCDWebServer.h; sourceTree = "<group>"; };
 		2B01BC652F1BF246B8C12A6A623CDB75 /* GCDWebServerResponse.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GCDWebServerResponse.h; path = GCDWebServer/Core/GCDWebServerResponse.h; sourceTree = "<group>"; };
-		2FE8F16E2FEAC613F481537DCF9CDE67 /* Simpleer.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Simpleer.debug.xcconfig; sourceTree = "<group>"; };
 		32DE92647CE5D7F7283A91D11E990EE8 /* Pods-Simpleer_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Simpleer_Tests-Info.plist"; sourceTree = "<group>"; };
 		447F4CD0B2B678D0DD84210A27411004 /* GCDWebServerErrorResponse.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GCDWebServerErrorResponse.h; path = GCDWebServer/Responses/GCDWebServerErrorResponse.h; sourceTree = "<group>"; };
 		4747CE64F7B1A18AB1BD5E506D895338 /* Pods-Simpleer_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Simpleer_Example.modulemap"; sourceTree = "<group>"; };
@@ -112,50 +109,51 @@
 		55C77F97FCBCC7DE392101FCB05902C6 /* GCDWebServerErrorResponse.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GCDWebServerErrorResponse.m; path = GCDWebServer/Responses/GCDWebServerErrorResponse.m; sourceTree = "<group>"; };
 		55EF08AD7AAB917C6879B567F317CC58 /* GCDWebServer.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = GCDWebServer.modulemap; sourceTree = "<group>"; };
 		5689702FEB840A71EF127FDE3F03A27C /* GCDWebServerURLEncodedFormRequest.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GCDWebServerURLEncodedFormRequest.m; path = GCDWebServer/Requests/GCDWebServerURLEncodedFormRequest.m; sourceTree = "<group>"; };
-		56DB5497C7D92625BFB13D3AE1CE684F /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		5879E3BF62E3E6F5DA4C5B5D8A925752 /* GCDWebServer-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "GCDWebServer-dummy.m"; sourceTree = "<group>"; };
 		591A5CA3B29966019A93E672E538D31C /* GCDWebServerPrivate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GCDWebServerPrivate.h; path = GCDWebServer/Core/GCDWebServerPrivate.h; sourceTree = "<group>"; };
-		601655DCE14D19FFD5CC6D4D3D3BE7E4 /* Pods_Simpleer_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Simpleer_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		6057C5CA6BDF69D9F1964C3F121048D1 /* SandboxPlugin.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SandboxPlugin.swift; path = Simpleer/Classes/SandboxPlugin.swift; sourceTree = "<group>"; };
+		5D323F5BFBEE86F56E24075558DFD2D5 /* Simpleer.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = Simpleer.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		601655DCE14D19FFD5CC6D4D3D3BE7E4 /* Pods_Simpleer_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_Simpleer_Example.framework; path = "Pods-Simpleer_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		62C0C560F5A28EF7B58C26EC60FED655 /* GCDWebServer-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "GCDWebServer-prefix.pch"; sourceTree = "<group>"; };
 		664130A2C22C73D9420E4AF756BED234 /* Pods-Simpleer_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Simpleer_Example.release.xcconfig"; sourceTree = "<group>"; };
 		697E21734D492E01752F7113497ED3AE /* GCDWebUploader.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GCDWebUploader.h; path = GCDWebUploader/GCDWebUploader.h; sourceTree = "<group>"; };
-		6EBA3F9CD49E46C8ABACDCDCFAF79D8D /* Simpleer.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Simpleer.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6EBA3F9CD49E46C8ABACDCDCFAF79D8D /* Simpleer.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Simpleer.framework; path = Simpleer.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		70863C638D9063803F973FB7FECA4D8D /* GCDWebServerRequest.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GCDWebServerRequest.m; path = GCDWebServer/Core/GCDWebServerRequest.m; sourceTree = "<group>"; };
-		70F639D4703E7ED96FF2173C44DA3C56 /* Simpleer-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Simpleer-Info.plist"; sourceTree = "<group>"; };
+		71A3620C1209E2FF69F43E75F0886285 /* SandboxPlugin.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SandboxPlugin.swift; path = Simpleer/Classes/SandboxPlugin.swift; sourceTree = "<group>"; };
 		71FBC139B31F01FB871AA70F25CC110B /* GCDWebServerHTTPStatusCodes.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GCDWebServerHTTPStatusCodes.h; path = GCDWebServer/Core/GCDWebServerHTTPStatusCodes.h; sourceTree = "<group>"; };
 		7280734DB193C4F1370A214654921BBC /* Pods-Simpleer_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Simpleer_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		759ECDF8BE716CBC21A6124DC7075790 /* Simpleer-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Simpleer-umbrella.h"; sourceTree = "<group>"; };
 		7ABEBABB8E36F445D4414BCC82F97C92 /* Pods-Simpleer_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Simpleer_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		7FCC055C5501444D7524F5C3A0E9A31D /* Pods-Simpleer_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Simpleer_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		81A27E08C2D3004703E0248DF030932F /* Simpleer-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Simpleer-dummy.m"; sourceTree = "<group>"; };
 		839E8E46A97C2B19378897C68C4A8004 /* GCDWebServerDataResponse.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GCDWebServerDataResponse.m; path = GCDWebServer/Responses/GCDWebServerDataResponse.m; sourceTree = "<group>"; };
 		840EEB90348804EDEAFB2E9940A655F2 /* GCDWebServerFileRequest.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GCDWebServerFileRequest.m; path = GCDWebServer/Requests/GCDWebServerFileRequest.m; sourceTree = "<group>"; };
 		84AEC71FBB095B0349551464C8461883 /* Pods-Simpleer_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Simpleer_Example-umbrella.h"; sourceTree = "<group>"; };
 		867598BBF9637778BAB1C50B12564EB9 /* GCDWebServerResponse.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GCDWebServerResponse.m; path = GCDWebServer/Core/GCDWebServerResponse.m; sourceTree = "<group>"; };
-		88B0596C6807FCAD841C1A77BD5B9DBE /* Simpleer-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Simpleer-dummy.m"; sourceTree = "<group>"; };
+		8ABD6E604DC80F9E7ED58ED86C2B1F32 /* Simpleer-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Simpleer-Info.plist"; sourceTree = "<group>"; };
 		8F1C79A7F4B5EC6B08AD3E45005E4ED1 /* Pods-Simpleer_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Simpleer_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		925087BB562AD16D7942B59616A2824C /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		9A7EB694158FDFA90C9A09C33BA0336D /* GCDWebServerFileResponse.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GCDWebServerFileResponse.h; path = GCDWebServer/Responses/GCDWebServerFileResponse.h; sourceTree = "<group>"; };
 		9D29FC4B91ACD8788A10D1BFA9A9B231 /* Pods-Simpleer_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Simpleer_Tests-umbrella.h"; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		9FAB321F2799C35FE3B30663967ABB53 /* SimplerrManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SimplerrManager.swift; path = Simpleer/Classes/SimplerrManager.swift; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A24C6815B4C0036584CEAE013AD4DECC /* SimpleerPlugin.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SimpleerPlugin.swift; path = Simpleer/Classes/SimpleerPlugin.swift; sourceTree = "<group>"; };
 		A424A41A9A3A5FAD0543837A95202FCC /* GCDWebServerMultiPartFormRequest.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GCDWebServerMultiPartFormRequest.h; path = GCDWebServer/Requests/GCDWebServerMultiPartFormRequest.h; sourceTree = "<group>"; };
-		A9E0AC9C00B3F032597A51AED1AB5EE3 /* SimpleerPlugin.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SimpleerPlugin.swift; path = Simpleer/Classes/SimpleerPlugin.swift; sourceTree = "<group>"; };
 		AAF5FE62CD50EFA86F080C43B8588277 /* GCDWebServerFunctions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GCDWebServerFunctions.m; path = GCDWebServer/Core/GCDWebServerFunctions.m; sourceTree = "<group>"; };
 		AC5F8564F0789C52D4EA4E14D91AD5E6 /* GCDWebServer.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GCDWebServer.m; path = GCDWebServer/Core/GCDWebServer.m; sourceTree = "<group>"; };
 		B0142CB02C84016C3F668B1586C91408 /* GCDWebServerMultiPartFormRequest.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GCDWebServerMultiPartFormRequest.m; path = GCDWebServer/Requests/GCDWebServerMultiPartFormRequest.m; sourceTree = "<group>"; };
+		B15C7354F62B25016D1CE9723155B6BD /* Simpleer.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Simpleer.release.xcconfig; sourceTree = "<group>"; };
 		B435AD2F2146821543736A9F3F00CA95 /* GCDWebServerDataResponse.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GCDWebServerDataResponse.h; path = GCDWebServer/Responses/GCDWebServerDataResponse.h; sourceTree = "<group>"; };
 		B559DCF25A29AA4D6EFB7CD5904BF6D4 /* Pods-Simpleer_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Simpleer_Tests.modulemap"; sourceTree = "<group>"; };
-		B68C1052A3B51DBCF7D960F898AAFA95 /* GCDWebServer.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = GCDWebServer.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B68C1052A3B51DBCF7D960F898AAFA95 /* GCDWebServer.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = GCDWebServer.framework; path = GCDWebServer.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B830A57E3623AB8AFC628B57F91E00C4 /* GCDWebServerConnection.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GCDWebServerConnection.h; path = GCDWebServer/Core/GCDWebServerConnection.h; sourceTree = "<group>"; };
 		BA22E675476397F11F02BCB91E34019E /* GCDWebServer.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = GCDWebServer.release.xcconfig; sourceTree = "<group>"; };
 		BCCFE1F774FB68BD86A34CDA5262DBA7 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/MobileCoreServices.framework; sourceTree = DEVELOPER_DIR; };
 		BFBB6B9874548911D76CAEBC8861C2FC /* GCDWebServerRequest.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GCDWebServerRequest.h; path = GCDWebServer/Core/GCDWebServerRequest.h; sourceTree = "<group>"; };
+		C4966967947F1EA7EEDAA8A1E49981B5 /* Simpleer.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = Simpleer.modulemap; sourceTree = "<group>"; };
+		CAFC86321D3602FCF2440E36D89ED468 /* SimpleerManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SimpleerManager.swift; path = Simpleer/Classes/SimpleerManager.swift; sourceTree = "<group>"; };
 		CC39F753CC8145E7794B14A6A9C9513D /* Pods-Simpleer_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Simpleer_Tests-dummy.m"; sourceTree = "<group>"; };
-		D0E83748BB4B044C2F76EBC3F66BB111 /* Simpleer-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Simpleer-prefix.pch"; sourceTree = "<group>"; };
 		D5BFFC94FBEB0BAF65C099D431E97D0F /* GCDWebServer.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = GCDWebServer.debug.xcconfig; sourceTree = "<group>"; };
 		D7EA88C721481F951B18565F2AB76FD2 /* GCDWebServerFileRequest.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GCDWebServerFileRequest.h; path = GCDWebServer/Requests/GCDWebServerFileRequest.h; sourceTree = "<group>"; };
 		DDE41377AA37A8F1B9B758179C7924DC /* GCDWebServerStreamedResponse.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GCDWebServerStreamedResponse.h; path = GCDWebServer/Responses/GCDWebServerStreamedResponse.h; sourceTree = "<group>"; };
-		E044538EDB39A92DABB72E8E14D66632 /* Pods_Simpleer_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Simpleer_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E044538EDB39A92DABB72E8E14D66632 /* Pods_Simpleer_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_Simpleer_Tests.framework; path = "Pods-Simpleer_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E1B0EBCB1D9AFB3A3667CCE51FCB8A23 /* GCDWebServerFunctions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GCDWebServerFunctions.h; path = GCDWebServer/Core/GCDWebServerFunctions.h; sourceTree = "<group>"; };
 		E3AD4CA1CD2844E8E7D78547565BD240 /* GCDWebServer.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = GCDWebServer.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E44EB738D534550D7ECB884DE1C78F02 /* Pods-Simpleer_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Simpleer_Tests.release.xcconfig"; sourceTree = "<group>"; };
@@ -163,10 +161,11 @@
 		E4943092DB937A1574BFAE5C9FD8950F /* GCDWebServer-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "GCDWebServer-Info.plist"; sourceTree = "<group>"; };
 		E517783F85FDA63CC6164937014902D8 /* Pods-Simpleer_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Simpleer_Example-dummy.m"; sourceTree = "<group>"; };
 		E5D899BC48007EECC6FD438615C43E70 /* Pods-Simpleer_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Simpleer_Example-frameworks.sh"; sourceTree = "<group>"; };
-		EC34CE617D2E8D9E2D1B07EF3E982D31 /* Simpleer.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Simpleer.release.xcconfig; sourceTree = "<group>"; };
 		F4840FF3CB1531D07D448E8DD02749CC /* Pods-Simpleer_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Simpleer_Example-Info.plist"; sourceTree = "<group>"; };
 		F604C8824647810A86048F42B2498A3D /* Pods-Simpleer_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Simpleer_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		FA9F9C32808F3073D087D0A73E3D24BD /* Simpleer.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Simpleer.debug.xcconfig; sourceTree = "<group>"; };
 		FD3F472D8F01B41EC28DD5DF4A1A584D /* GCDWebServer-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "GCDWebServer-umbrella.h"; sourceTree = "<group>"; };
+		FFABCACA53F90430592A3C2EC91663B9 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -208,16 +207,25 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		225C90C59D6D4C20420F05C245CE29F2 /* Support Files */ = {
+		05A3235DF10AB0B2505F5669DC19CD93 /* Pod */ = {
 			isa = PBXGroup;
 			children = (
-				05D915DB80882E6A649853C4AB7B910B /* Simpleer.modulemap */,
-				88B0596C6807FCAD841C1A77BD5B9DBE /* Simpleer-dummy.m */,
-				70F639D4703E7ED96FF2173C44DA3C56 /* Simpleer-Info.plist */,
-				D0E83748BB4B044C2F76EBC3F66BB111 /* Simpleer-prefix.pch */,
-				1B831AD1E6A7390C63AFDC6CF107E2E0 /* Simpleer-umbrella.h */,
-				2FE8F16E2FEAC613F481537DCF9CDE67 /* Simpleer.debug.xcconfig */,
-				EC34CE617D2E8D9E2D1B07EF3E982D31 /* Simpleer.release.xcconfig */,
+				FFABCACA53F90430592A3C2EC91663B9 /* LICENSE */,
+				5D323F5BFBEE86F56E24075558DFD2D5 /* Simpleer.podspec */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		2C9F480F81B098A0B369A6B2FBD93403 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				C4966967947F1EA7EEDAA8A1E49981B5 /* Simpleer.modulemap */,
+				81A27E08C2D3004703E0248DF030932F /* Simpleer-dummy.m */,
+				8ABD6E604DC80F9E7ED58ED86C2B1F32 /* Simpleer-Info.plist */,
+				1EF13429C6C2C040F0D302929F613BB3 /* Simpleer-prefix.pch */,
+				759ECDF8BE716CBC21A6124DC7075790 /* Simpleer-umbrella.h */,
+				FA9F9C32808F3073D087D0A73E3D24BD /* Simpleer.debug.xcconfig */,
+				B15C7354F62B25016D1CE9723155B6BD /* Simpleer.release.xcconfig */,
 			);
 			name = "Support Files";
 			path = "Example/Pods/Target Support Files/Simpleer";
@@ -236,16 +244,6 @@
 			);
 			name = "Support Files";
 			path = "../Target Support Files/GCDWebServer";
-			sourceTree = "<group>";
-		};
-		59250D2CAA561333286CC2FB5EDD95A9 /* Pod */ = {
-			isa = PBXGroup;
-			children = (
-				56DB5497C7D92625BFB13D3AE1CE684F /* LICENSE */,
-				925087BB562AD16D7942B59616A2824C /* README.md */,
-				0D84F3BC9859BE4A56DE916C407D1340 /* Simpleer.podspec */,
-			);
-			name = Pod;
 			sourceTree = "<group>";
 		};
 		676959A02B4E3B1864283369C23F98AE /* WebUploader */ = {
@@ -278,7 +276,7 @@
 		9352CCCFA939A14994BDC1283CFD4C97 /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				B92EF6D92327C2AD6EDAD85E0BA59820 /* Simpleer */,
+				D9BBDF4F126535A07FE21E0E460E9201 /* Simpleer */,
 			);
 			name = "Development Pods";
 			sourceTree = "<group>";
@@ -297,19 +295,6 @@
 			);
 			name = "Pods-Simpleer_Tests";
 			path = "Target Support Files/Pods-Simpleer_Tests";
-			sourceTree = "<group>";
-		};
-		B92EF6D92327C2AD6EDAD85E0BA59820 /* Simpleer */ = {
-			isa = PBXGroup;
-			children = (
-				6057C5CA6BDF69D9F1964C3F121048D1 /* SandboxPlugin.swift */,
-				9FAB321F2799C35FE3B30663967ABB53 /* SimplerrManager.swift */,
-				A9E0AC9C00B3F032597A51AED1AB5EE3 /* SimpleerPlugin.swift */,
-				59250D2CAA561333286CC2FB5EDD95A9 /* Pod */,
-				225C90C59D6D4C20420F05C245CE29F2 /* Support Files */,
-			);
-			name = Simpleer;
-			path = ../..;
 			sourceTree = "<group>";
 		};
 		CF1408CF629C7361332E53B88F7BD30C = {
@@ -332,6 +317,19 @@
 				BCCFE1F774FB68BD86A34CDA5262DBA7 /* MobileCoreServices.framework */,
 			);
 			name = iOS;
+			sourceTree = "<group>";
+		};
+		D9BBDF4F126535A07FE21E0E460E9201 /* Simpleer */ = {
+			isa = PBXGroup;
+			children = (
+				71A3620C1209E2FF69F43E75F0886285 /* SandboxPlugin.swift */,
+				CAFC86321D3602FCF2440E36D89ED468 /* SimpleerManager.swift */,
+				A24C6815B4C0036584CEAE013AD4DECC /* SimpleerPlugin.swift */,
+				05A3235DF10AB0B2505F5669DC19CD93 /* Pod */,
+				2C9F480F81B098A0B369A6B2FBD93403 /* Support Files */,
+			);
+			name = Simpleer;
+			path = ../..;
 			sourceTree = "<group>";
 		};
 		DA215A3FCCC4B3C125F3E53439CFFB12 /* Pods-Simpleer_Example */ = {
@@ -421,6 +419,7 @@
 				417EBAEF4D55034EA6152067B902EC39 /* Support Files */,
 				676959A02B4E3B1864283369C23F98AE /* WebUploader */,
 			);
+			name = GCDWebServer;
 			path = GCDWebServer;
 			sourceTree = "<group>";
 		};
@@ -490,8 +489,8 @@
 			buildRules = (
 			);
 			dependencies = (
-				505E231509644179C1BD74A6A9CA703A /* PBXTargetDependency */,
-				5A5F62792E49E09B0A767D105BDF2335 /* PBXTargetDependency */,
+				446904179E5A22EA0BFBACA172748255 /* PBXTargetDependency */,
+				F29B4B9045B4E0FA5CD6A7202BE0D069 /* PBXTargetDependency */,
 			);
 			name = "Pods-Simpleer_Example";
 			productName = "Pods-Simpleer_Example";
@@ -503,14 +502,14 @@
 			buildConfigurationList = EB16BC8BA72FEF61AE424269F7FD7F43 /* Build configuration list for PBXNativeTarget "Simpleer" */;
 			buildPhases = (
 				CB296D7E64CF9E6E5722EC1DA17F9DB7 /* Headers */,
-				C97311DB7A1D8D088EEBB3C6599B2AED /* Sources */,
+				0FF7F21E6C5A391418BF266B6DE208F8 /* Sources */,
 				1D42E4AC523DA9212F048D672FE01005 /* Frameworks */,
 				F82017C4990A24EC943FD868CA87AA77 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				EEF6C43858270D785BEE0A5979D1FE52 /* PBXTargetDependency */,
+				33852047A2DDD1FFDD22DD7EBC59D5C6 /* PBXTargetDependency */,
 			);
 			name = Simpleer;
 			productName = Simpleer;
@@ -529,7 +528,7 @@
 			buildRules = (
 			);
 			dependencies = (
-				C86FDF18248E7243435E96929529B408 /* PBXTargetDependency */,
+				0EBB1596C17E3BCA397D0579D96E7DC5 /* PBXTargetDependency */,
 			);
 			name = "Pods-Simpleer_Tests";
 			productName = "Pods-Simpleer_Tests";
@@ -639,6 +638,17 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		0FF7F21E6C5A391418BF266B6DE208F8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C7CAAA6DBA2A63793C5E7CB7B492279C /* SandboxPlugin.swift in Sources */,
+				DA31B29E34696A0F18C630631F9FC40C /* Simpleer-dummy.m in Sources */,
+				D1396DD929658CE0E8124AB707E2CE82 /* SimpleerManager.swift in Sources */,
+				2DE979398B5145AB4F845BA518A175AB /* SimpleerPlugin.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		2493AD1C75CF24E4D4DC83F701DD43B9 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -655,43 +665,32 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		C97311DB7A1D8D088EEBB3C6599B2AED /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				9C30E63127BB06A036A6D682D603CCFB /* SandboxPlugin.swift in Sources */,
-				29BDC8CC43D5B4B05CA3784BDABDC365 /* Simpleer-dummy.m in Sources */,
-				45B187D9B44A9EE1673A7E323C8C3799 /* SimplerrManager.swift in Sources */,
-				F01B24C86C43E3CB9216E0F81AA94295 /* SimpleerPlugin.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		505E231509644179C1BD74A6A9CA703A /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = GCDWebServer;
-			target = AD904F32069787EFB2DFFE05EB82F5BD /* GCDWebServer */;
-			targetProxy = B0ACAC558855EB8ECF24C65900C20412 /* PBXContainerItemProxy */;
-		};
-		5A5F62792E49E09B0A767D105BDF2335 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = Simpleer;
-			target = 80338FF7C157FBD6F608AA6F388E270F /* Simpleer */;
-			targetProxy = 80197571D6C612E2CF5185E18649C57F /* PBXContainerItemProxy */;
-		};
-		C86FDF18248E7243435E96929529B408 /* PBXTargetDependency */ = {
+		0EBB1596C17E3BCA397D0579D96E7DC5 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "Pods-Simpleer_Example";
 			target = 1E9EFB6136FDBF1C3B772FCEBDE67E96 /* Pods-Simpleer_Example */;
-			targetProxy = 34EB1ABD96F14905C8609AAAEE168CDC /* PBXContainerItemProxy */;
+			targetProxy = AFB420DC5ED3348EDD3CEDC76B40D156 /* PBXContainerItemProxy */;
 		};
-		EEF6C43858270D785BEE0A5979D1FE52 /* PBXTargetDependency */ = {
+		33852047A2DDD1FFDD22DD7EBC59D5C6 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = GCDWebServer;
 			target = AD904F32069787EFB2DFFE05EB82F5BD /* GCDWebServer */;
-			targetProxy = 66AA0F7EEE27990374C91C77C01569B8 /* PBXContainerItemProxy */;
+			targetProxy = E9F021ABDD119C76DFCF6D17A17BDC78 /* PBXContainerItemProxy */;
+		};
+		446904179E5A22EA0BFBACA172748255 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = GCDWebServer;
+			target = AD904F32069787EFB2DFFE05EB82F5BD /* GCDWebServer */;
+			targetProxy = CD26AB1EC0AEAEFA7BF0604E2810F6D9 /* PBXContainerItemProxy */;
+		};
+		F29B4B9045B4E0FA5CD6A7202BE0D069 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Simpleer;
+			target = 80338FF7C157FBD6F608AA6F388E270F /* Simpleer */;
+			targetProxy = 9C52A727621F6832DB29E91E1D6F3F26 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -799,7 +798,7 @@
 		};
 		71A83D11BC41B5A0F5CF9B9E2534E526 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = EC34CE617D2E8D9E2D1B07EF3E982D31 /* Simpleer.release.xcconfig */;
+			baseConfigurationReference = B15C7354F62B25016D1CE9723155B6BD /* Simpleer.release.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -978,7 +977,8 @@
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
 				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
 			};
@@ -1050,7 +1050,7 @@
 		};
 		C502F16627289C4F457E4ECFE67E59C9 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 2FE8F16E2FEAC613F481537DCF9CDE67 /* Simpleer.debug.xcconfig */;
+			baseConfigurationReference = FA9F9C32808F3073D087D0A73E3D24BD /* Simpleer.debug.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
