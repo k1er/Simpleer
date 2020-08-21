@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'Simpleer'
-  s.version          = '0.1.0'
+  s.version          = '0.1.1'
   s.summary          = 'Manager iPhone sandbox file by web.'
 
 # This description is used to generate tags and improve search results.
