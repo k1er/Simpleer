@@ -21,11 +21,11 @@ Pod::Spec.new do |s|
 Manager iPhone sandbox file by web.
                        DESC
 
-  s.homepage         = 'https://github.com/k1er/Simpler'
+  s.homepage         = 'https://github.com/k1er/Simpleer'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'Rudy' => 'anke603@163.ccom' }
-  s.source           = { :git => 'https://github.com/k1er/Simpler.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/k1er/Simpleer.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '8.0'
