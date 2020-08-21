@@ -1,0 +1,6 @@
+framework module Simpler {
+  umbrella header "Simpler-umbrella.h"
+
+  export *
+  module * { export * }
+}
