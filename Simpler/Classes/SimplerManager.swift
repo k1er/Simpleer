@@ -7,17 +7,39 @@
 
 import Foundation
 
-public class SimplerManager<T: SandBoxPlugin> {
-//    public static let manager = SimplerManager()
+public class SimplerManager {
     
-    var plugins: [T] = []
+    public static let manager = SimplerManager()
+    
+    var plugins: [Plugin] = []
+    
+    var running: Bool = false
     
     var port: UInt = 8888
     
-    init() {
+    private init() {
         plugins = [SandBoxPlugin()]
-//        plugins.fir
     }
     
+    public func start() {
+        for plugin in plugins {
+            plugin.start()
+        }
+        running = true
+    }
     
+    public func stop() {
+        for plugin in plugins {
+            plugin.stop()
+        }
+        running = false
+    }
+    
+    public func toggle() {
+        if running {
+            stop()
+        } else {
+            start()
+        }
+    }
 }

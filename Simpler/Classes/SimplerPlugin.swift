@@ -8,6 +8,7 @@
 import Foundation
 
 public protocol Plugin {
+    func laod()
     func start()
     func stop()
 }

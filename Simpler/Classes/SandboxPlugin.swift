@@ -14,11 +14,15 @@ public class SandBoxPlugin: Plugin {
         return GCDWebUploader(uploadDirectory: NSHomeDirectory())
     }()
     
+    public func laod() {
+        
+    }
+
     public func start() {
         
         server.start(withPort: 8080, bonjourName: "Web Based Uploads")
         
-        print("服务启动成功，使用你的浏览器访问：\(server.serverURL!)")
+        print("Server URL：\(server.serverURL!)")
     }
     
     public func stop() {

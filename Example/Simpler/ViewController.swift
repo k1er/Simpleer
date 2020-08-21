@@ -14,7 +14,7 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        SimplerManager.manager.start()
+        SimplerManager.manager.start();
     }
 
     override func didReceiveMemoryWarning() {
