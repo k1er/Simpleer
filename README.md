@@ -22,7 +22,7 @@ pod 'Simpleer'
 
 ## Author
 
-anke603@163.com, YANGXIANGYANG597@pingan.com.cn
+anke603@163.com
 
 ## License
 
